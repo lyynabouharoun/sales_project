@@ -1,0 +1,28 @@
+# Ignore conda environments
+env/
+venv/
+.venv/
+*/env/
+*/venv/
+*/.venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore data if you want
+data/*.xlsx
+data/*.csv
+
+# BUT keep output.csv (remove this if you want to ignore it)
+!data/output.csv
